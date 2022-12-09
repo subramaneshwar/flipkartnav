@@ -1,0 +1,99 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box; 
+}
+body{
+    /* border: 10px solid black; */
+    height: 25vh;
+}
+.nav{
+    /* border: 10px solid blue; */
+    height: 40%;
+    background-color: #3e72e8;
+    display: flex;
+    align-items: center;
+    gap:2rem;
+}
+.more{
+    display: flex;
+    /* padding-top: 10px; */
+}
+.more p{
+    /* border: 2px solid; */
+    padding-top: 5px;
+}
+.logo{
+    padding-left: 10%;
+}
+.search{
+    display: flex;
+}
+.search input{
+    outline: none;
+    height: 50px;
+    width: 500px;
+    padding: 0 1rem;
+    font-size: 18px;
+    border: none;
+}
+.search button {
+    width: 100px;
+    border: none;
+    background-color: white;
+    font-size: 22px;
+    padding-left: 30px;
+}
+.login button{
+    height: 40px;
+    width: 150px;
+    color: #3e72e8;
+    font-size: 18px;
+    background-color: white;
+    border: none;
+}
+.seller{
+    color: white;
+    font-weight: 800;
+}
+.more{
+    color: white;
+    font-weight: 800;
+}
+.cart{
+    color: white;
+    font-weight: 800;
+    padding-bottom: 1px;
+}
+
+.nav2{
+    /* border: solid 5px ; */
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 80px;
+}
+.nav2 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight:500;
+    text-transform: capitalize;
+}
+.arr div{
+    /* border: 2px red solid; */
+    display: flex;
+    flex-direction: row;
+}
+.symbol{
+    /* border: #3e72e8 solid; */
+    padding-top: 10px;
+    padding-left: 5px;
+    font-size: 22px;
+    font-weight:500;
+}
+
+
+
